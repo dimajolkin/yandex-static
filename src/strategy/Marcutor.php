@@ -3,8 +3,8 @@
 namespace YandexStatic\strategy;
 
 
-use Types\objects\Point;
-use Types\objects\PointMap;
+use PHPCoord\LatLng;
+use phpdk\awt\Point;
 
 class Marcutor
 {
@@ -39,10 +39,8 @@ class Marcutor
         );
     }
 
-    public function convertInMapPixelCoords(PointMap $map): Point
+    public function convertInMapPixelCoords(LatLng $map): Point
     {
-        $radius = 256 * ($this->zoom + 1);
-        
         $map_width = 256 * ($this->zoom + 1);
         $map_height = 256 * ($this->zoom + 1);
 

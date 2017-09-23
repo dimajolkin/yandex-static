@@ -2,14 +2,7 @@
 
 namespace YandexStatic\strategy;
 
-
 use Imagick;
-use Types\objects\Point;
-use Types\objects\PointMap;
-use Nubs\Coordinator\CoordinateFactory;
-use Nubs\Coordinator\CoordinateSystem\Mercator;
-use Nubs\Coordinator\Spheroid\Earth;
-use Types\yandex\Image;
 
 class GenerateDynamicImageStrategy extends AbstractImageGenerateStrategy
 {
