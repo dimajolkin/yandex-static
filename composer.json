@@ -1,0 +1,13 @@
+{
+    "name": "dimajolkin/yandex-static",
+    "authors": [
+        {
+            "name": "dimajolkin",
+            "email": "dimajolkin@rambler.ru"
+        }
+    ],
+    "require": {
+        "phpdk/pdk": "@dev",
+        "php-coord/php-coord": "^2.0"
+    }
+}

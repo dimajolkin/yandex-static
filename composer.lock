@@ -1,0 +1,122 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dea1238469a9d5cffa33ae4691dd2010",
+    "packages": [
+        {
+            "name": "php-coord/php-coord",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dvdoug/PHPCoord.git",
+                "reference": "45133c2ec8ba1bf6d5bd3f58a636bfb11fd54cc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dvdoug/PHPCoord/zipball/45133c2ec8ba1bf6d5bd3f58a636bfb11fd54cc3",
+                "reference": "45133c2ec8ba1bf6d5bd3f58a636bfb11fd54cc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.3||^5.0",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPCoord\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Doug Wright",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jonathan Stott",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "PHPCoord is a set of PHP functions for handling various co-ordinate systems and converting between them",
+            "homepage": "https://github.com/dvdoug/PHPCoord",
+            "keywords": [
+                "UTM",
+                "coord",
+                "geo",
+                "gps",
+                "grid ref",
+                "itm",
+                "latitude",
+                "longitude",
+                "osgb36",
+                "wgs84"
+            ],
+            "time": "2016-09-20T18:11:11+00:00"
+        },
+        {
+            "name": "phpdk/pdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-dk/pdk.git",
+                "reference": "ff61a4a2792bb6bc30aad894c2f2ab9f53c68ed4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-dk/pdk/zipball/ff61a4a2792bb6bc30aad894c2f2ab9f53c68ed4",
+                "reference": "ff61a4a2792bb6bc30aad894c2f2ab9f53c68ed4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpdk\\": "src",
+                    "phpdk\\tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dima",
+                    "email": "dimajolkin@gmail.com"
+                }
+            ],
+            "description": "php development kit",
+            "keywords": [
+                "development",
+                "kit",
+                "php"
+            ],
+            "time": "2017-07-12 19:49:10"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpdk/pdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
